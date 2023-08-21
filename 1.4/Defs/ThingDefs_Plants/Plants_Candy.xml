@@ -1,0 +1,114 @@
+<Defs>
+
+    <!-- Candycane looking tree which should drop some candy -->
+    <ThingDef ParentName="DeciduousTreeBase">
+        <defName>RimRound_Plant_TreeCandy</defName>
+        <label>candy tree</label>
+        <description>text.todo</description>
+        <graphicData>
+            <texPath>Things/Plant/RimRound_OakCandy</texPath>
+            <graphicClass>Graphic_Random</graphicClass>
+            <shadowData>
+                <volume>(0.2, 0.35, 0.13)</volume>
+                <offset>(-0.03,0,-0.44)</offset>
+            </shadowData>
+        </graphicData>
+        <statBases>
+            <Beauty>2</Beauty>
+            <BeautyOutdoors>2</BeautyOutdoors>
+        </statBases>
+        <plant>
+            <harvestedThingDef>WoodLog</harvestedThingDef> <!-- Replace with some different drop def I assume -->
+            <growDays>30</growDays>
+            <leaflessGraphicPath>Things/Plant/TreeOak_Leafless</leaflessGraphicPath>
+            <harvestWork>1400</harvestWork>
+            <harvestYield>30</harvestYield>
+            <wildClusterWeight>35</wildClusterWeight>
+        </plant>
+    </ThingDef>
+
+    <!-- Chocolate bark tree -->
+    <!-- <ThingDef ParentName="DeciduousTreeBase">
+        <defName>RimRound_Plant_TreeChocolate</defName>
+        <label>chocolate tree</label>
+        <description>text.todo</description>
+        <graphicData>
+            <texPath>Things/Plant/TreeOak</texPath>
+            <graphicClass>Graphic_Random</graphicClass>
+            <shadowData>
+                <volume>(0.2, 0.35, 0.13)</volume>
+                <offset>(-0.03,0,-0.44)</offset>
+            </shadowData>
+        </graphicData>
+        <statBases>
+            <Beauty>2</Beauty>
+            <BeautyOutdoors>2</BeautyOutdoors>
+        </statBases>
+        <plant>
+            <harvestedThingDef>WoodLog</harvestedThingDef>
+            <growDays>30</growDays>
+            <leaflessGraphicPath>Things/Plant/TreeOak_Leafless</leaflessGraphicPath>
+            <harvestWork>1400</harvestWork>
+            <harvestYield>30</harvestYield>
+            <wildClusterWeight>35</wildClusterWeight>
+        </plant>
+    </ThingDef> -->
+
+    <!-- Candy grass -->
+    <ThingDef ParentName="PlantBase">
+        <defName>RimRound_Plant_CandyGrass</defName>
+        <label>candy grass</label>
+        <description>Wild candy grass. Grows anywhere there is a little light and minimally fertile ground. Its leaves seem to be made of a candy-like fibrous material.</description>
+        <statBases>
+            <MaxHitPoints>85</MaxHitPoints>
+            <Flammability>1.3</Flammability>
+            <Nutrition>0.50</Nutrition>
+        </statBases>
+        <graphicData>
+            <texPath>Things/Plant/RimRound_CandyGrass</texPath>
+            <graphicClass>Graphic_Random</graphicClass>
+        </graphicData>
+        <hideAtSnowDepth>0.5</hideAtSnowDepth>
+        <ingestible />
+        <plant>
+            <fertilityMin>0.05</fertilityMin>
+            <fertilitySensitivity>0.3</fertilitySensitivity>
+            <growDays>2.5</growDays>
+            <leaflessGraphicPath>Things/Plant/Grass_Leafless</leaflessGraphicPath>
+            <harvestWork>40</harvestWork>
+            <maxMeshCount>9</maxMeshCount>
+            <visualSizeRange>0.4~0.6</visualSizeRange>
+            <topWindExposure>0.4</topWindExposure>
+            <wildOrder>1</wildOrder>
+        </plant>
+    </ThingDef>
+
+    <ThingDef ParentName="PlantBase">
+        <defName>RimRound_Plant_IceCreamGrass</defName>
+        <label>candy grass</label>
+        <description>Wild ice cream grass. Grows anywhere there is a little light and minimally fertile ground. Its leaves seem to be made of a frozen creamy substance resembling ice cream.</description>
+        <statBases>
+            <MaxHitPoints>85</MaxHitPoints>
+            <Flammability>1.3</Flammability>
+            <Nutrition>0.50</Nutrition>
+        </statBases>
+        <graphicData>
+            <texPath>Things/Plant/RimRound_IceCreamGrass</texPath>
+            <graphicClass>Graphic_Random</graphicClass>
+        </graphicData>
+        <hideAtSnowDepth>0.5</hideAtSnowDepth>
+        <ingestible />
+        <plant>
+            <fertilityMin>0.05</fertilityMin>
+            <fertilitySensitivity>0.3</fertilitySensitivity>
+            <growDays>2.5</growDays>
+            <leaflessGraphicPath>Things/Plant/Grass_Leafless</leaflessGraphicPath>
+            <harvestWork>40</harvestWork>
+            <maxMeshCount>9</maxMeshCount>
+            <visualSizeRange>0.4~0.6</visualSizeRange>
+            <topWindExposure>0.4</topWindExposure>
+            <wildOrder>1</wildOrder>
+        </plant>
+    </ThingDef>
+
+</Defs>

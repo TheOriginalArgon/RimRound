@@ -52,7 +52,7 @@
   <ItemGroup>
     <Reference Include="0Harmony, Version=2.1.1.0, Culture=neutral, processorArchitecture=MSIL">
       <SpecificVersion>False</SpecificVersion>
-      <HintPath>..\..\..\..\DevDependencies\2009463077_harmony\Current\Assemblies\0Harmony.dll</HintPath>
+      <HintPath>..\..\..\..\..\Superfighters Deluxe\SFR\0Harmony.dll</HintPath>
       <Private>False</Private>
     </Reference>
     <Reference Include="AlienRace">
@@ -157,6 +157,7 @@
     <Compile Include="RimRound\AI\WeightOpinions\ThoughtWorker_WeightOpinion_Neutral.cs" />
     <Compile Include="RimRound\AI\WeightOpinions\ThoughtWorker_WeightOpinion_NeutralMinus.cs" />
     <Compile Include="RimRound\AI\WeightOpinions\ThoughtWorker_WeightOpinion_NeutralPlus.cs" />
+    <Compile Include="RimRound\BiomeWorkers.cs" />
     <Compile Include="RimRound\Comps\Abilities\CompAbilityEffect_ConvertWeightOpinion.cs" />
     <Compile Include="RimRound\Comps\Abilities\CompProperties_ConvertWeightOpinion.cs" />
     <Compile Include="RimRound\Comps\Map\MapComp_RRGasGrid.cs" />
