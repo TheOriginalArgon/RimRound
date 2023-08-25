@@ -168,6 +168,7 @@
     <Compile Include="RimRound\Defs\ClothingModExtension.cs" />
     <Compile Include="RimRound\Defs\InteractionDefOf.cs" />
     <Compile Include="RimRound\Defs\ME_ExtraProductPlantYield.cs" />
+    <Compile Include="RimRound\Extensions.cs" />
     <Compile Include="RimRound\Hediffs\Hediff_AIEncouragementChip.cs" />
     <Compile Include="RimRound\Hediffs\Hediff_BionicMetabolizer.cs" />
     <Compile Include="RimRound\Hediffs\Hediff_ArchotechMetabolizer.cs" />
@@ -175,6 +176,7 @@
     <Compile Include="RimRound\Hediffs\Hediff_SuddenWeightGain.cs" />
     <Compile Include="RimRound\Hediffs\Hediff_SuddenWeightGainImmunity.cs" />
     <Compile Include="RimRound\Patch\CameraPlusPatches\CameraPlus_Tools_ShouldShowDot_DontShowDotForGelatinous.cs" />
+    <Compile Include="RimRound\Patch\Patch_PlantYield.cs" />
     <Compile Include="RimRound\Patch\HumanoidAlienRacesPatches\BackstoryDef_ResolveReferences_ChangeRandomBodyAssignmentForNullBackstoriesToThin.cs" />
     <Compile Include="RimRound\Patch\HumanoidAlienRacesPatches\HarmonyPatches_BaseHeadOffsetAtHelper_AddExtraBodySpecificHeadOffset.cs" />
     <Compile Include="RimRound\Patch\HumanoidAlienRacesPatches\HarmonyPatches_CheckBodyType_ChangeRRToThin.cs" />
